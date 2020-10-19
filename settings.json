@@ -25,7 +25,7 @@
     // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
 
 
-# Put background and Iconds here: %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
+    // Put background and Iconds here: %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
 
     "profiles":
     {
@@ -41,10 +41,10 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "colorScheme": "One Half Dark",
-                "fontSize": 22,
+                "fontSize": 18,
                 "hidden": false,
-	        "backgroundImage" : "ms-appdata:///roaming/bg1.png",
-                "backgroundImageOpacity" : 0.05,
+	        "backgroundImage" : "ms-appdata:///roaming/japan1.jpg",
+                "backgroundImageOpacity" : 0.25,
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageStrechMode" : "uniform"
             },
@@ -54,9 +54,9 @@
                 "name": "SSH Session",
                 "commandline": "ssh <username>@<ip address goes here>",
                 "colorScheme": "One Half Dark",
-                "fontSize": 19,
+                "fontSize": 18,
                 "hidden": false,
-	        "backgroundImage" : "ms-appdata:///roaming/bg1.png",
+	        "backgroundImage" : "ms-appdata:///roaming/japan1.jpg",
 		"icon" : "ms-appdata:///roaming/pi.png",
                 "backgroundImageOpacity" : 0.05,
                 "backgroundImageAlignment": "bottomRight",
@@ -79,10 +79,10 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "fontSize": 16,
+                "fontSize": 18,
                 "colorScheme": "One Half Dark",
 		"icon" : "ms-appdata:///roaming/ubuntu.png",
-		"backgroundImage" : "ms-appdata:///roaming/bg1.png",
+		"backgroundImage" : "ms-appdata:///roaming/japan1.jpg",
                 "source": "Windows.Terminal.Wsl",
                 "backgroundImageOpacity" : 0.05,
                 "backgroundImageAlignment": "bottomRight",
